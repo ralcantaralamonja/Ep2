@@ -1,2 +1,8 @@
-# Ep2
-Evaluación Permanente 2 de programación web 1
+# EP2 Programacion web 1
+
+Participantes
+
+* Ricardo Luis Alejandro Alcantara Lamonja
+* Orlando Alonso Gonzales Paz
+* Matias Joaquin Toledo Ocampo Priano
+* Alex Franco Pacotaipe Garcia
