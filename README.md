@@ -1,8 +1,14 @@
-EP1 de programacion web 1
+EP2 PROGRAMACION WEB 1
 
-Participantes
+|Participante|       
+|----------------------------------------|       
+|Ricardo Luis Alejandro Alcantara Lamonja| 
+|Alex Franco Pacotaipe Garcia|
+|Matias Joaquin Toledo Ocampo Priano|
+|Orlando Alonso Gonzales Paz|
 
-* Ricardo Luis Alejandro Alcantara Lamonja
-* Orlando Alonso Gonzales Paz
-* Matias Joaquin Toledo Ocampo Priano
-* Alex Franco Pacotaipe Garcia
+
+
+
+
+
