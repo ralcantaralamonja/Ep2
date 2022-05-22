@@ -88,12 +88,23 @@ $(function(){
                 appoinment = true;
             }
         })
-})
-            
-            
-        
-        
-        
 
-            
-        
+    //AGREGANDO GALERIA
+    $("#galeria figure").append("<figcaption>"); //agregando figcaption
+
+    //efecto de desbanecido para la galeria
+    $("#galeria figure").mouseenter(function(){
+        $(this).find("figcaption").stop().fadeIn("fast");  
+    });
+
+    $("#galeria figure").mouseleave(function(){
+        $(this).find("figcaption").stop().fadeOut("fast");
+    });
+
+    $("#galeria figure").each(function(){
+        var nombre = $(this).find("img").attr("title");
+
+        //agregar nombre en la cortina y icono 
+        $(this).find("figcaption").html("<div><p>" + nombre + "</p></div>");
+    })
+})

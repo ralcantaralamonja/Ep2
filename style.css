@@ -67,6 +67,34 @@ main .carousel-inner img{
     font-size: 2rem;
 }
 
+/* CSS PARA GALERIA */ 
+
+#galeria figure{
+    position: relative;
+}
+
+#galeria figure figcaption{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    display: none;
+}
+
+#galeria figure figcaption div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+#galeria figure figcaption div i{
+    cursor: pointer;
+    
+}
+
 #SERVICES{
     font-family: 'Oswald', sans-serif;
 }
