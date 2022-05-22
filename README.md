@@ -1,6 +1,6 @@
-EP2 PROGRAMACION WEB 1
+EP2 DE CURSO PROGRAMACION WEB 1
 
-|Participante|       
+|Participantes|       
 |----------------------------------------|       
 |Ricardo Luis Alejandro Alcantara Lamonja| 
 |Alex Franco Pacotaipe Garcia|
