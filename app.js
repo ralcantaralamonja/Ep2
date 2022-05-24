@@ -56,12 +56,59 @@ $(function () {
   $("#appoinment").mouseleave(function () {
     $("#appoinment").css("background-color", "#080c0c").css("color", "#FFFFFF");
   });
-
-
-  //AGREGANDO GALERIA
+//text-video
+$(".text-video").mouseenter(function () {
+    $(".text-video").css("background-color", "#ff0000").css("color", "#ffffff");
+  });
+  $(".text-video").mouseleave(function () {
+    $(".text-video").css("background-color", "#000000").css("color", "#fbc204");
+  });
+//text-about
+$(".text-about").mouseenter(function () {
+    $(".text-about").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".text-about").mouseleave(function () {
+    $(".text-about").css("background-color", "#000000").css("color", "#fbc204");
+  });
+//text-tittle-ourteam
+$(".text-tittle-ourteam").mouseenter(function () {
+    $(".text-tittle-ourteam").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".text-tittle-ourteam").mouseleave(function () {
+    $(".text-tittle-ourteam").css("background-color", "#000000").css("color", "#fbc204");
+  });
+//text-tittle-review
+$(".text-tittle-review").mouseenter(function () {
+    $(".text-tittle-review").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".text-tittle-review").mouseleave(function () {
+    $(".text-tittle-review").css("background-color", "#000000").css("color", "#fbc204");
+  });
+//tex-contacts 
+$(".tex-contactss").mouseenter(function () {
+    $(".tex-contactss").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".tex-contactss").mouseleave(function () {
+    $(".tex-contactss").css("background-color", "#000000").css("color", "#fbc204");
+  });
+//text-title-app
+$(".text-title-appo").mouseenter(function () {
+    $(".text-title-appo").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".text-title-appo").mouseleave(function () {
+    $(".text-title-appo").css("background-color", "#000000").css("color", "#fbc204");
+  });
+//.btn
+$(".btn").mouseenter(function () {
+    $(".btn").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".btn").mouseleave(function () {
+    $(".btn").css("background-color", "#009dff").css("color", "#ffffff");
+  });
+//AGREGANDO GALERIA
   $("#galeria figure").append("<figcaption>"); //agregando figcaption
 
-  //efecto de desbanecido para la galeria
+//efecto de desbanecido para la galeria
   $("#galeria figure").mouseenter(function () {
     $(this).find("figcaption").stop().fadeIn("fast");
   });

@@ -113,21 +113,36 @@ main .carousel-inner img{
 .text-tittle-ourteam{
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
+    text-align: center;
+}
+.text-tittle-review{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .text-ourteam{
     font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .text-video{
     font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
+    text-align: center;
+    
 }
 
 .tex-contacts{
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+    text-align: center;
+}
+.tex-contactss{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
 }
 
 .text-videos{
@@ -138,6 +153,7 @@ main .carousel-inner img{
 .text-title-appo{
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 
@@ -215,6 +231,7 @@ p{
     .text-ourteam{
         font-family: 'Oswald', sans-serif;
         font-size: 1.6rem;
+
     }
 
     .text-videos{
@@ -223,7 +240,16 @@ p{
     }
     
 }
-
+.btn {
+    background-color: #009dff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 @media screen and (max-width: 992px) {
 
     .text-title{
