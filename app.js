@@ -125,4 +125,25 @@ $(".btn").mouseenter(function () {
       .find("figcaption")
       .html("<div><p>" + nombre + "</p></div>");
   });
+  
+  //fetcg
+  $("#lista-componentes li").click(function(){
+    var nombrearchivo = $(this).attr("archivo-componentes");
+
+    $("#lista-componentes li").removeClass("active");
+    $(this).addClass("active"); /* Añadir clase */
+
+    fetch("componentes/" + nombrearchivo + ".html")
+        .then(function(response){
+            return response.text(); //Indica el tipo de dato que devuelve al leer el archivo
+        })
+        .then(function(data){
+            //la variable data contiene los datos
+            console.log(data);
+            $("#visor-componentes").html(data);
+        })
+})
+
+
+
 });
