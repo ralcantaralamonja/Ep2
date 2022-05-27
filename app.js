@@ -27,14 +27,6 @@ $(function () {
   $("#team").mouseleave(function () {
     $("#team").css("background-color", "#080c0c").css("color", "#FFFFFF");
   });
-  //reviews
-  $("#reviews").mouseenter(function () {
-    $("#reviews").css("background-color", "#fbc204").css("color", "#000000");
-  });
-  $("#reviews").mouseleave(function () {
-    $("#reviews").css("background-color", "#080c0c").css("color", "#FFFFFF");
-  });
- 
   //videos
   $("#videos").mouseenter(function () {
     $("#videos").css("background-color", "#fbc204").css("color", "#000000");
