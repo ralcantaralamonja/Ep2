@@ -127,20 +127,20 @@ $(".btn").mouseenter(function () {
   });
   
   //fetcg
-  $("#lista-componentes li").click(function(){
-    var nombrearchivo = $(this).attr("archivo-componentes");
+  $("#lista-services li").click(function(){
+    var nombrearchivo = $(this).attr("archivo-services");
 
-    $("#lista-componentes li").removeClass("active");
+    $("#lista-services li").removeClass("active");
     $(this).addClass("active"); /* Añadir clase */
 
-    fetch("componentes/" + nombrearchivo + ".html")
+    fetch("services/" + nombrearchivo + ".html")
         .then(function(response){
             return response.text(); //Indica el tipo de dato que devuelve al leer el archivo
         })
         .then(function(data){
             //la variable data contiene los datos
             console.log(data);
-            $("#visor-componentes").html(data);
+            $("#visor-services").html(data);
         })
 })
 
