@@ -126,7 +126,7 @@ $(".btn").mouseenter(function () {
       .html("<div><p>" + nombre + "</p></div>");
   });
   
-  //fetcg
+  //fetch
   $("#lista-componentes li").click(function(){
     var nombrearchivo = $(this).attr("archivo-componentes");
 
