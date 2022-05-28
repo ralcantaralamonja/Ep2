@@ -133,10 +133,6 @@ $(function () {
       .find("figcaption")
       .html("<div><p>" + nombre + "</p></div>");
   });
-  
-  //fetch
-  $("#lista-componentes li").click(function(){
-    var nombrearchivo = $(this).attr("archivo-componentes");
 
   //fetcg
   $("#lista-services li").click(function () {
@@ -204,5 +200,3 @@ $(function () {
       });
   });
 });
-
-
