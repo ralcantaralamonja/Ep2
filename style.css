@@ -140,7 +140,7 @@ main .carousel-inner img{
     font-size: 2.1rem;
     text-align: center;
 }
-.tex-contactss{
+.text-contacts{
     font-family: 'Oswald', sans-serif;
     font-size: 2.4rem;
     text-align: center;
@@ -159,10 +159,10 @@ main .carousel-inner img{
 
 
 #contactos{
-    background-image: url(imagenes/gato-content.jpg);
+    /* background-image: url(imagenes/gato-content.jpg);
     background-repeat: no-repeat;
     background-size: fixed;
-    height: 100vh;
+    height: 100vh; */
     width: 100;
 }
 

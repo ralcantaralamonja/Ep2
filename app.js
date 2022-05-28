@@ -62,6 +62,13 @@ $(function () {
   $(".text-about").mouseleave(function () {
     $(".text-about").css("background-color", "#000000").css("color", "#fbc204");
   });
+  //text-contacts
+  $(".text-contacts").mouseenter(function () {
+    $(".text-contacts").css("background-color", "#fbc204").css("color", "#ffffff");
+  });
+  $(".text-contacts").mouseleave(function () {
+    $(".text-contacts").css("background-color", "#000000").css("color", "#fbc204");
+  });
   //text-tittle-ourteam
   $(".text-tittle-ourteam").mouseenter(function () {
     $(".text-tittle-ourteam")
