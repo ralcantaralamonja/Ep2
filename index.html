@@ -37,6 +37,20 @@
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2mb-lg-0" id="menu-principal"></ul>
+                            <li class="nav-item dropdown" style="color:#080c0c">
+                                <a class="nav-link dropdown-toggle"href="#" id="navbar Dropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="color:#FFFFFF">
+                                    OPTIONS
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#" id="menu-item-Reviews"> Reviews </a></li>
+                                        <li><a class="dropdown-item" href="#" id="menu-item-Services"> Services </a></li>
+                                        <li><a class="dropdown-item" href="#" id="menu-item-Teams"> Teams </a></li>
+                                        <li><a class="dropdown-item" href="#" id="menu-item-home"> Home </a></li>
+                                        </ul>
+                            </li>
+                            </ul>
                             <ul class="navbar-nav m-auto mb-2 mb-lg-0" id="nav">
                                 <li class="nav-item ps-4 pe-4">
                                     <a class="nav-link active text-center" aria-current="page" href="#HOME"
@@ -53,10 +67,6 @@
                                 <li class="nav-item ps-4 pe-4">
                                     <a class="nav-link active text-center" aria-current="page" href="#our-team"
                                         id="team">TEAM</a>
-                                </li>
-                                <li class="nav-item ps-4 pe-4">
-                                    <a class="nav-link active text-center" aria-current="page" href="#reviews"
-                                        id="reviews">REVIEWS</a>
                                 </li>
                                 <li class="nav-item ps-4 pe-4">
                                     <a class="nav-link active text-center" aria-current="page" href="#video"
@@ -79,7 +89,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-container">
         <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause=“false”>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -105,7 +115,7 @@
                 </div>
             </div>
         </div>
-    </main>
+   
 
     <section id="about-services">
         <div class="container text-center">
@@ -373,23 +383,24 @@
             </div>
         </div>
     </section>
-    <section id="componentes" class="padded" style="color:#fbc204">
+    <section id="services" class="padded" style="color:#fbc204">
         <div class="container">
-            <h2>Sobre Nosotros</h2>
+            <h2>Find US</h2>
             <div class="row">
                 <div class="col-md-2">
-                    <ul class="list-group" id="lista-componentes">
-                        <li class="list-group-item" archivo-componentes="reviews">Reviews</li>
-                        <li class="list-group-item" archivo-componentes="services">Services</li>
-                        <li class="list-group-item" archivo-componentes="teams">Teams</li>
+                    <ul class="list-group" id="lista-services">
+                        <li class="list-group-item" archivo-services="club_pet">Clinic Club Pet</li>
+                        <li class="list-group-item" archivo-services="pet_mania">Clinic Pet Mania</li>
+                        <li class="list-group-item" archivo-services="terra_pet">Clinic Terra Pet</li>
                     </ul>
                 </div>
-                <div class="col" id="visor-componentes">
+                <div class="col" id="visor-services">
                 </div>
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- vengadores -->
     <!--FOOTER O PARTE BAJA DE LA WEB-->
+</main> 
     <footer id="footer">
         <div class="container pt-4">
             <!-- PARTE SUPERIOR FORMULARIO E IMAGEN -->
@@ -429,13 +440,13 @@
                     <img src="imagenes/footer-img.jpg" class="img-fluid" alt="...">
                 </div>
             </div>
-
+        
             <!--PARE INFERIOR LOGO E ICONOS DE FB INSTAGRAM-->
             <div class="row">
                 <div id="logo-iconos" class="col-sm col-md text-center">
                     <img src="imagenes/logo-footer.png" class="img-fluid" alt="...">
                 </div>
-
+            
                 <div id="footer-icons" class="col-sm offset-md-8 col-md-2 justify text-center">
                     <svg id="facebook-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                         fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
